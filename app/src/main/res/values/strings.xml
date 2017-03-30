@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">IQ Hub\nConfigurator</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_incorrect_password">Invalid authorisation credentials</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_hospitals">Error retrieving Hospital information</string>
+    <string name="error_locations">Error retrieving locations information</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="settings">Settings</string>
+    <string name="error_user_not_authorized">User not authorised for configuring IQHubs.</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_logged">Logged in as</string>
+    <string name="title_activity_information">IQ Hub Status</string>
+    <string name="start_configuration">Next</string>
+    <string name="user_name">Name:</string>
+    <string name="hospital_name">Hospital:</string>
+
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_hub">HubActivity</string>
+    <string name="title_activity_configuration">ConfigurationActivity</string>
+
+    <string name="select_location">Select instalation location for the hub.</string>
+    <string name="select_hub">Select IQ Hub</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="info">Info</string>
+    <string name="transmit">Transmit</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="ble_scan_report">BLE finished with %1 devices found</string>
+    <string name="configuration_success">IQ Hub successfully set up</string>
+    <string name="configuration_failure">Error configuring IQ HUB</string>
+    <string name="ble_device_scanning">Scanning</string>
+    <string name="ble_device_select">Select IQ Hub</string>
+    <string name="ble_device_configuring">Configuring IQ Hub</string>
+    <string name="ble_device_not_found">No IQ Hubs found. Scan again</string>
+    <string name="ble_device_configure">Set IQ Hub configuration</string>
+    <string name="ble_device_retrieving">Retrieving IQ HUB information</string>
+    <string name="ble_device_status">IQ HUB status</string>
+    <string name="scan">Rescan</string>
+    <string name="setup">Setup</string>
+    <string name="remember_login">Remember me</string>
+
+    <string name="prompt_wifi_ssid">Wifi SSID</string>
+    <string name="prompt_wifi_password">Wifi Password</string>
+
+    <string name="prompt_proxy_server">Proxy server</string>
+    <string name="prompt_proxy_port">Proxy port</string>
+    <string name="prompt_proxy_user">Proxy user</string>
+    <string name="prompt_proxy_password">Proxy password</string>
+
+    <string name="prompt_address">Address</string>
+    <string name="prompt_netmask">Netmask</string>
+    <string name="prompt_gateway">Gateway</string>
+
+    <string name="enable_setup">Advanced</string>
+    <string name="enable_wifi">Enable wifi</string>
+    <string name="enable_proxy">Enable proxy</string>
+    <string name="enable_static">Enable static IP</string>
+
+    <string name="prompt_hub_name">IQ Hub name</string>
+    <string name="prompt_hub_description">IQ Hub description</string>
+
+    <string name="status_macaddress">MAC Address</string>
+    <string name="status_name">Name</string>
+    <string name="status_description">Description</string>
+    <string name="status_location">Location</string>
+    <string name="status_version">Version</string>
+    <string name="status_http">HTTP status</string>
+    <string name="status_https">HTTPS status</string>
+    <string name="status_insights">Insights status</string>
+    <string name="status_internet">Internet status</string>
+    <string name="status_lost">Lost</string>
+    <string name="status_seen">Last seen</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="at">at</string>
+    <string name="exit">Exit</string>
+    <string name="not_ready">Not ready</string>
+    <string name="setup_instructions" formatted="true">Confirm the green LED is illuminated and press <b>Transmit</b> to complete Setup.\n\nTo change any of the defaults, press <b>Advanced</b> before pressing <b>Transmit</b>.\n\nIf the green LED is not illuminated, press <b>Back</b> to select a different IQ Hub.</string>
+    <string name="setup_instructions_bug" formatted="true">The IQ Hub is ready for configuration as soon as the <b>Transmit</b> button appears.\n\nWhen you are ready, press <b>Transmit</b> to configure the IQ Hub or <b>Back</b> to select a different hub.\n\nTo change any of the default settings, choose <b>Advanced</b>, then press <b>Transmit</b>.</string>
+    <string name="location_none">None</string>
+    <string name="information_failure">Error retrieving IQ Hub information</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="location">Location:</string>
+    <string name="setup_label_format">IQ Hub: $hub for $location</string>
+    <string name="title_activity_success">SuccessActivity</string>
+    <string name="back_hubs">Return to list of IQ Hubs</string>
+    <string name="back_locations">Return to list of locations</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="exit_confirmation">Are you sure to Exit the Application?</string>
+    <string name="title_activity_advanced">AdvancedActivity</string>
+
+    <string name="advanced">Advanced</string>
+</resources>
